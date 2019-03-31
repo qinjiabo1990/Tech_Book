@@ -1,0 +1,62 @@
+/*
+  Author: University of Queensland - INFS7202
+  Source: Lecture slide
+  Last accessed date: 25-5-2018
+  Function: load video and change its size*/
+.body {
+  text-align: center;
+}
+#video-block {
+  margin-top: 20vh;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+#play-btn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0f0f0f;
+  z-index: 100;
+  opacity: 0.6;
+}
+.play #play-btn {
+  visibility: hidden;
+}
+.stop #play-btn{
+  visibility: visible;
+}
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+#btn {
+  background: #00cc00;
+  background-image: -webkit-linear-gradient(top, #009900, #009900);
+  background-image: -moz-linear-gradient(top, #009900, #009900);
+  background-image: -ms-linear-gradient(top, #009900, #009900);
+  background-image: -o-linear-gradient(top, #00cc00, #009900);
+  background-image: linear-gradient(to bottom, #009900, #009900);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 25px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #33cc33;
+  background-image: -webkit-linear-gradient(top, #33cc33, #33cc33);
+  background-image: -moz-linear-gradient(top, #33cc33, #33cc33);
+  background-image: -ms-linear-gradient(top, #33cc33, #33cc33);
+  background-image: -o-linear-gradient(top, #33cc33, #33cc33);
+  background-image: linear-gradient(to bottom, #33cc33, #33cc33);
+  text-decoration: none;
+  cursor: pointer;
+}

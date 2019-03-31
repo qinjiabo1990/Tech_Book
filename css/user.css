@@ -1,0 +1,34 @@
+/*topic*/
+h1{
+	padding:10px;
+	margin-left:25%;
+}
+h4{
+	padding:10px;
+	margin-left:25%;
+	border-bottom: solid;
+	width:48%;
+}
+/*div css*/
+.details{
+	display: -webkit-box;
+	padding:10px;
+	margin-left:25%;
+}
+.contact,.name{
+	padding:10px;
+	margin-right:15%;
+}
+.info{
+	padding:10px;
+	margin-left:26%;
+}
+.purchase{
+	display: -webkit-box;
+	padding:10px;
+	margin-left: 25%;
+}
+.content,.img{
+	padding:10px;
+	margin-right:23%;
+}
